@@ -1,4 +1,4 @@
-package com.hbisoft.hbrecorderexample;
+package com.lemon.screensrecorder;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.hbisoft.hbrecorder;
+package com.cutcaps.screcorder;
 
 import android.content.Context;
 import androidx.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.hbisoft.hbrecorder.test", appContext.getPackageName());
+        assertEquals("com.cutcaps.screcorder.test", appContext.getPackageName());
     }
 }

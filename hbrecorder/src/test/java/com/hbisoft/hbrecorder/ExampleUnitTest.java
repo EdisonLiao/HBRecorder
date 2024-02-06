@@ -1,4 +1,4 @@
-package com.hbisoft.hbrecorder;
+package com.cutcaps.screcorder;
 
 import org.junit.Test;
 

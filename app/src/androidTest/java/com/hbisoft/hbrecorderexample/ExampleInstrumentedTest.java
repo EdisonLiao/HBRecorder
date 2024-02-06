@@ -1,4 +1,4 @@
-package com.hbisoft.hbrecorderexample;
+package com.lemon.screensrecorder;
 
 import android.content.Context;
 import androidx.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.hbisoft.hbrecorderexample", appContext.getPackageName());
+        assertEquals("com.lemon.screensrecorder", appContext.getPackageName());
     }
 }

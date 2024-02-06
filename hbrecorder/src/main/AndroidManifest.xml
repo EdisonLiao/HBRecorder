@@ -1,15 +1,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.hbisoft.hbrecorder">
+    xmlns:tools="http://schemas.android.com/tools">
 
     <application
         tools:targetApi="q">
 
-        <service android:name="com.hbisoft.hbrecorder.ScreenRecordService"
+        <service android:name="com.cutcaps.screcorder.ScreenRecordService"
             android:foregroundServiceType="mediaProjection"
             tools:targetApi="q" />
 
-        <receiver android:name="com.hbisoft.hbrecorder.NotificationReceiver"/>
+        <receiver android:name="com.cutcaps.screcorder.NotificationReceiver"/>
 
     </application>
 
